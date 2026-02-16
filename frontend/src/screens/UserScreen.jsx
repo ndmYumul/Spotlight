@@ -6,7 +6,8 @@ function UserScreen() {
   const sampleUser = {
     name: 'John Doe',
     email: 'john.doe@example.com',
-    role: 'User'
+    role: 'User',
+    gradeLevel: '10'
   }
 
   return (
@@ -23,6 +24,9 @@ function UserScreen() {
           </Card.Text>
           <Card.Text>
             <strong>Role:</strong> {sampleUser.role}
+          </Card.Text>
+          <Card.Text>
+            <strong>Grade Level:</strong> {sampleUser.gradeLevel}
           </Card.Text>
         </Card.Body>
       </Card>
