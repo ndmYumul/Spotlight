@@ -49,7 +49,7 @@ function Header() {
                     <i className="fas fa-bell fa-lg"></i>
                 </Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/profile">
+            <LinkContainer to="/user">
             <Nav.Link className="d-flex align-items-center p-0">
               <Image 
                   src={profile_pic} 
