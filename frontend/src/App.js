@@ -6,6 +6,7 @@ import HomeScreen from './screens/HomeScreen';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import DetailScreen from './screens/DetailScreen';
 import UserScreen from './screens/UserScreen';
+import ScheduleScreen from './screens/ScheduleScreen';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
               <Route path='/' element={<HomeScreen />} exact />
               <Route path='/building/:id' element={<DetailScreen />} />
               <Route path='/user' element={<UserScreen />} />
+              <Route path='/schedule' element={<ScheduleScreen />} />
             </Routes>
           </Container>
       </main>
